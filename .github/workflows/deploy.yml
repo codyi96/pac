@@ -55,7 +55,8 @@ jobs:
       run: |
         git config --global user.email "471705439@qq.com"
         git config --global user.name "codyi96"
-        git commit --allow-empty -a -m "PAC updated: $(date "+%Y-%m-%d %H:%M:%S")"
+        git add .
+        git commit --allow-empty -m "PAC updated: $(date "+%Y-%m-%d %H:%M:%S")"
 
     - name: Push
       run: |
