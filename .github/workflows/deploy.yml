@@ -4,8 +4,10 @@ on:
   push:
     branches:
       - source
+  # 必须将 workflow file 放在 master 分支，否则 schedule 不生效
   schedule:
-    - cron: '0 0 * * *'
+    # 尽管配置了 Time Zone，但 cron 配置值依然代表 UTC 时间
+    - cron: '0 16 * * *'
 
 env:
   TZ: Asia/Shanghai
@@ -45,6 +47,7 @@ jobs:
 
     - name: Store and clean source directory
       run: |
+        cp -r source/.github .github
         cp source/README.md README.md
         rm -rf source
 
@@ -52,8 +55,7 @@ jobs:
       run: |
         git config --global user.email "471705439@qq.com"
         git config --global user.name "codyi96"
-        git add .
-        git commit -m "PAC updated: $(date "+%Y-%m-%d %H:%M:%S")"
+        git commit --allow-empty -a -m "PAC updated: $(date "+%Y-%m-%d %H:%M:%S")"
 
     - name: Push
       run: |
