@@ -1,0 +1,63 @@
+name: pac
+
+on:
+  push:
+    branches:
+      - source
+  # 必须将 workflow file 放在 master 分支，否则 schedule 不生效
+  schedule:
+    # 尽管配置了 Time Zone，但 cron 配置值依然代表 UTC 时间
+    - cron: '0 16 * * *'
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6]
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: refs/heads/master
+
+    - uses: actions/checkout@v2
+      with:
+        ref: refs/heads/source
+        fetch-depth: 1
+        path: source
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Generate PAC
+      run: |
+        python source/pac.py
+
+    - name: Store and clean source directory
+      run: |
+        cp -r source/.github .
+        cp source/README.md .
+        rm -rf source
+
+    - name: Commit
+      run: |
+        git config --global user.email "471705439@qq.com"
+        git config --global user.name "codyi96"
+        git add .
+        git commit --allow-empty -m "PAC updated: $(date "+%Y-%m-%d %H:%M:%S")"
+
+    - name: Push
+      run: |
+        git push "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
