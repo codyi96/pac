@@ -47,8 +47,8 @@ jobs:
 
     - name: Store and clean source directory
       run: |
-        cp -r source/.github .github
-        cp source/README.md README.md
+        cp -r source/.github .
+        cp source/README.md .
         rm -rf source
 
     - name: Commit
