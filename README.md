@@ -1,5 +1,5 @@
 # pac
-
+<img src="https://github.com/codyi96/pac/workflows/pac/badge.svg" />
 pac for v2ray.
 
 ## Download
