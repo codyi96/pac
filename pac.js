@@ -3536,6 +3536,7 @@ var domains = [
     "nat.moe",
     "nat.moe",
     "national-lottery.co.uk",
+    "nationalawakening.org",
     "nationsonline.org/oneworld/tibet",
     "line.naver.jp",
     "navyfamily.navy.mil",
