@@ -2588,6 +2588,7 @@ var domains = [
     "greatroc.tw",
     "gts-vpn.com",
     "http://gts-vpn.com",
+    "gtv.org",
     "gu-chu-sum.org",
     "http://gu-chu-sum.org",
     "guaguass.com",
