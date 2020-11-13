@@ -3746,6 +3746,7 @@ var domains = [
     "pao-pao.net",
     "paradisehill.cc",
     "paradisepoker.com",
+    "parler.com",
     "parsevideo.com",
     "partycasino.com",
     "partypoker.com",
