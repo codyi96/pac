@@ -1234,6 +1234,8 @@ var domains = [
     "apiary.io",
     "apigee.com",
     "apigee.com",
+    "apk-dl.com",
+    "apkcombo.com",
     "apkmonk.com/app",
     "apkplz.com",
     "apkpure.com",
