@@ -2930,7 +2930,7 @@ var domains = [
     "inmediahk.net",
     "inmediahk.net",
     "innermongolia.org",
-    "http://blog.inoreader.com",
+    "inoreader.com",
     "inote.tw",
     "insecam.org",
     "http://insecam.org",
