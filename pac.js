@@ -3779,6 +3779,7 @@ var domains = [
     "neowin.net",
     "nepusoku.com",
     "net-fits.pro",
+    "netalert.me",
     "netbirds.com",
     "netflav.com",
     "netme.cc",
