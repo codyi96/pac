@@ -1458,6 +1458,7 @@ var domains = [
     "belamionline.com",
     "bell.wiki",
     "http://bell.wiki",
+    "berlinerbericht.de",
     "berlintwitterwall.com",
     "berlintwitterwall.com",
     "berm.co.nz",
