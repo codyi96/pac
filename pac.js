@@ -3554,6 +3554,7 @@ var domains = [
     "meetav.com",
     "meetup.com",
     "mega.co.nz",
+    "mega.io",
     "mega.nz",
     "megaproxy.com",
     "megarotic.com",
