@@ -3816,6 +3816,7 @@ var domains = [
     "newyorker.com",
     "nexon.com",
     "next11.co.jp",
+    "nextdigital.com.hk",
     "nextmag.com.tw",
     "nextmedia.com",
     "nexton-net.jp",
