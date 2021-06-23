@@ -2653,7 +2653,7 @@ var domains = [
     "git.io",
     "http://softwaredownload.gitbooks.io",
     "github.blog",
-    "https://gist.github.com",
+    "github.com",
     "github.io",
     "github.io",
     "githubusercontent.com",
