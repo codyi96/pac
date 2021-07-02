@@ -2633,6 +2633,7 @@ var domains = [
     "getmalus.com",
     "getsocialscope.com",
     "getsync.com",
+    "gettr.com",
     "gfgold.com.hk",
     "gfsale.com",
     "gfsale.com",
