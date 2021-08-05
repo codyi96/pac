@@ -1149,6 +1149,7 @@ var domains = [
     "888.com",
     "888poker.com",
     "89-64.org",
+    "8964museum.com",
     "8news.com.tw",
     "8z1.net",
     "8z1.net",
