@@ -3820,6 +3820,7 @@ var domains = [
     "newsancai.com",
     "newsdetox.ca",
     "newsdh.com",
+    "newsmax.com",
     "newstamago.com",
     "newstapa.org",
     "newsweek.com",
