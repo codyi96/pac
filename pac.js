@@ -4123,6 +4123,7 @@ var domains = [
     "http://polymerhk.com",
     "popo.tw",
     "popvote.hk",
+    "popxi.click",
     "popyard.com",
     "popyard.org",
     "porn.com",
