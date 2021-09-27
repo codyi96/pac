@@ -141,6 +141,7 @@ var domains = [
     "mvg.jp",
     "mybet.com",
     "mybet.com",
+    "mypikpak.com",
     "nationwide.com",
     "http://www.nbc.com/live",
     "neo-miracle.com",
