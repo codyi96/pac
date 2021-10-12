@@ -2970,6 +2970,7 @@ var domains = [
     "hornygamer.com",
     "hornytrip.com",
     "http://hornytrip.com",
+    "horrorporn.com",
     "hotair.com",
     "hotav.tv",
     "hotels.cn",
