@@ -2143,6 +2143,7 @@ var domains = [
     "dlive.tv",
     "dlsite.com",
     "dlyoutube.com",
+    "dmc.nico",
     "dmcdn.net",
     "dnscrypt.org",
     "dnscrypt.org",
