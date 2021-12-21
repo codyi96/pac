@@ -4419,6 +4419,7 @@ var domains = [
     "rule34.xxx",
     "runbtx.com",
     "rushbee.com",
+    "rusvpn.com",
     "ruten.com.tw",
     "ruten.com.tw",
     "ruyiseek.com",
