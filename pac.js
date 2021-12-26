@@ -955,7 +955,7 @@ var domains = [
     "nytstyle.com",
     "steamcommunity.com",
     "steamcommunity.com",
-    "http://store.steampowered.com",
+    "store.steampowered.com",
     "t.me",
     "updates.tdesktop.com",
     "telegram.dog",
