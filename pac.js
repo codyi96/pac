@@ -1486,6 +1486,7 @@ var domains = [
     "beevpn.com",
     "behindkink.com",
     "beijing1989.com",
+    "beijing2022.art",
     "beijingspring.com",
     "beijingzx.org",
     "http://beijingzx.org",
