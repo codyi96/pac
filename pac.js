@@ -1164,6 +1164,7 @@ var domains = [
     "6parknews.com",
     "7capture.com",
     "7cow.com",
+    "7-zip.org",
     "8-d.com",
     "http://8-d.com",
     "85cc.us",
