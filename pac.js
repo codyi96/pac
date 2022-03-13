@@ -1632,6 +1632,7 @@ var domains = [
     "breakingtweets.com",
     "breakwall.net",
     "briefdream.com/%E7%B4%A0%E6%A3%BA",
+    "brill.com",
     "brizzly.com",
     "brkmd.com",
     "broadpressinc.com",
