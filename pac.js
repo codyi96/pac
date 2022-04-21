@@ -469,6 +469,7 @@ var domains = [
     "oex.com",
     "okex.com",
     "okx.com",
+    "opensea.io",
     "otcbtc.com",
     "paxful.com",
     "poolin.com",
