@@ -4097,6 +4097,7 @@ var domains = [
     "pastie.org",
     "pastie.org",
     "blog.pathtosharepoint.com",
+    "patreon.com",
     "pbworks.com",
     "developers.box.net",
     "wiki.oauth.net",
