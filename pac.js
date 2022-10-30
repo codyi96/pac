@@ -3340,6 +3340,7 @@ var domains = [
     "bbs.junglobal.net",
     "juoaa.com",
     "http://juoaa.com",
+    "justhost.ru",
     "justicefortenzin.org",
     "justmysocks1.net",
     "juziyue.com",
